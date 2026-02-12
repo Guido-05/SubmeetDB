@@ -18,8 +18,8 @@ public class DBMSBoundary {
     private static Connection connection;
 
     private static final String URL = "jdbc:mariadb://localhost:3306/submeetdb?allowPublicKeyRetrieval=true&useSSL=false";
-    private static final String USER = "root";
-    private static final String PASSWORD = "password";
+    private static final String USER = "your_username";
+    private static final String PASSWORD = "your_password";
 
 
     // Start connection with DB
